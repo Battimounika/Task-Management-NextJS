@@ -48,15 +48,15 @@ const Incomplete = () => {
                   >
                     {task.status}
                   </span>
-                  {/* Uncomment the following lines if you want to add update and delete buttons */}
-                  {/* <div className="flex justify-end mt-2">
+                  
+                   <div className="flex justify-end mt-2">
               <button className="text-blue-600 font-semibold mt-2 mr-2">
                 Update
               </button>
               <button className="text-red-600 font-semibold mt-2">
                 Delete
               </button>
-            </div> */}
+            </div> 
                 </div>
               </div>
             ))}
